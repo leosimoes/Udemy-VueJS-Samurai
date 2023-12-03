@@ -43,6 +43,10 @@ app.use(BootstrapVue3);
 app.mount('#app');
 ```
 
+6. Remove `HelloWorld` component:
+- In `src/components`, delete the `HelloWorld.vue` file.
+- In `src/App.vue`, remove references from the `HelloWorld` component.
+
 
 ## References
 Udemy - Vue Samurai - Frederico Fortes Bichara:
