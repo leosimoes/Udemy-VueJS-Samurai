@@ -47,6 +47,10 @@ app.mount('#app');
 - Em `src/components`, excluir o arquivo `HelloWorld.vue`.
 - Em `src/App.vue`, remover referências do componente `HelloWorld`.
 
+7. Adicionar `AppHeader` component:
+- Em `src/components`, criar o arquivo `AppHeader.vue`.
+- Em `src/App.vue`, adicionar `<AppHeader />` em `template` e `AppHeader` em `components` de `export`.
+
 
 ## Referências
 Udemy - Vue Samurai: Domine os conceitos do VueJS - Frederico Fortes Bichara:

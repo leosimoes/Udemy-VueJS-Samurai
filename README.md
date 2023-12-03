@@ -45,7 +45,11 @@ app.mount('#app');
 
 6. Remove `HelloWorld` component:
 - In `src/components`, delete the `HelloWorld.vue` file.
-- In `src/App.vue`, remove references from the `HelloWorld` component.
+- In `src/App.vue`, remove references from the `HelloWorld` component. 
+
+7. Add `AppHeader` component:
+- In `src/components`, create the `AppHeader.vue` file.
+- In `src/App.vue`, add `<AppHeader />` in `template` and `AppHeader` in `components` of `export`.
 
 
 ## References
