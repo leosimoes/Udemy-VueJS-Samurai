@@ -23,6 +23,10 @@ Os passos para o desenvolvimento do projeto foram:
 
 ![Image-02-cmd-VueCreate](/printscreens/Image-02-cmd-VueCreate.jpg)
 
+4. Testar o projeto com `npm run serve` e abrir `http://localhost:8080/` no navegador.
+
+![Image-03-NpmRunServe-localhost](/printscreens/Image-03-NpmRunServe-localhost.jpg)
+
 
 ## Referências
 Udemy - Vue Samurai: Domine os conceitos do VueJS - Frederico Fortes Bichara:

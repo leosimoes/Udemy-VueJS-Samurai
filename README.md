@@ -23,6 +23,10 @@ The steps for developing the project were:
 
 ![Image-02-cmd-VueCreate](/printscreens/Image-02-cmd-VueCreate.jpg)
 
+4. Test the project with `npm run serve` and open `http://localhost:8080/` in the browser.
+
+![Image-03-NpmRunServe-localhost](/printscreens/Image-03-NpmRunServe-localhost.jpg)
+
 
 ## References
 Udemy - Vue Samurai - Frederico Fortes Bichara:
