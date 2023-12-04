@@ -1,0 +1,23 @@
+[
+  {
+    "framework" : "Angular",
+    "explanation" : "Complete and Powerful",
+    "image" : "Img-Angular-Knight.png",
+    "color" : "danger",
+    "link" : "https://angular.io/start"
+  },
+  {
+    "framework" : "Vue",
+    "explanation" : "Progressive, Simple and Flexible",
+    "image" : "Img-VueJS-Samurai.png",
+    "color" : "success",
+    "link" : "https://vuejs.org/guide/quick-start"
+  },
+  {
+    "framework" : "React",
+    "explanation" : "Declarative and optimized",
+    "image" : "Img-ReactJs-Ninja.png",
+    "color" : "primary",
+    "link" : "https://react.dev/learn"
+  }
+]
