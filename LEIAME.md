@@ -3,6 +3,13 @@
 Projeto do curso "Vue Samurai - Domine os conceitos do VueJS" da Udemy
 
 
+## Resultados
+
+![Image-04-Cards](/printscreens/Image-04-Cards.jpg)
+
+![Image-05-About](/printscreens/Image-05-About.jpg)
+
+
 # Passos
 
 Os passos para o desenvolvimento do projeto foram:
@@ -60,7 +67,17 @@ app.mount('#app');
 
 ![Image-04-Cards](/printscreens/Image-04-Cards.jpg)
 
+9. Adicionar Rotas
+- Executar `npm install vue-router` no terminal.
+- Em `src` criar `router.js`
+- Adicionar router em `src/main.js`.
+- Criar pasta `views` em `src`.
+- Em `src/views`: criar:
+    * `Home.vue` com o código de `App.vue`.
+    * `About.vue` com novo código.
+- Alterar `App.vue` com `<router-view />` em seu template.
+
 
 ## Referências
-Udemy - Vue Samurai: Domine os conceitos do VueJS - Frederico Fortes Bichara:
+Udemy - Vue Samurai: Domine os conceitos do VueJS - Frederico Fortes:
 https://www.udemy.com/course/curso-vue-js-vue-samurai-domine-os-conceitos-do-vuejs

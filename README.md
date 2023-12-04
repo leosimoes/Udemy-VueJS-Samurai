@@ -3,6 +3,13 @@
 Project for the Udemy course "Vue Samurai".
 
 
+## Results
+
+![Image-04-Cards](/printscreens/Image-04-Cards.jpg)
+
+![Image-05-About](/printscreens/Image-05-About.jpg)
+
+
 # Steps
 
 The steps for developing the project were:
@@ -60,7 +67,17 @@ app.mount('#app');
 
 ![Image-04-Cards](/printscreens/Image-04-Cards.jpg)
 
+9. Add Routes
+- Run `npm install vue-router` in the terminal.
+- In `src` create `router.js`
+- Add router in `src/main.js`.
+- Create `views` folder in `src`.
+- In `src/views`: create:
+    * `Home.vue` with code from `App.vue`.
+    * `About.vue` with new code.
+- Change `App.vue` with `<router-view />` in your template.
+
 
 ## References
-Udemy - Vue Samurai - Frederico Fortes Bichara:
+Udemy - Vue Samurai - Frederico Fortes:
 https://www.udemy.com/course/curso-vue-js-vue-samurai-domine-os-conceitos-do-vuejs
