@@ -51,6 +51,15 @@ app.mount('#app');
 - Em `src/components`, criar o arquivo `AppHeader.vue`.
 - Em `src/App.vue`, adicionar `<AppHeader />` em `template` e `AppHeader` em `components` de `export`.
 
+8. Adicionar `TrailCard` component:
+- Em `src/components`, criar o arquivo `TrailCard.vue`.
+- TrailCard deve ter as propriedades framework, explanation, image, color, link.
+- Em `src/App.vue`, usar `v-for` e adicionar `<TrailCard />` em `template`, e `TrailCard` em `components` de `export`.
+- Em `public`, criar arquivo `trails.json` com objetos de cards. 
+- Gerar imagens para os cards com `https://stability.ai/stable-diffusion`.
+
+![Image-04-Cards](/printscreens/Image-04-Cards.jpg)
+
 
 ## Referências
 Udemy - Vue Samurai: Domine os conceitos do VueJS - Frederico Fortes Bichara:
